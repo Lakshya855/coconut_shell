@@ -1,0 +1,302 @@
+/* --- TEAM COCONUT SHELL: MODERN DASHBOARD THEME --- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* COCONUT SHELL PALETTE */
+    --shell-dark: #3E2723;    /* The hard outer shell (Primary Dark) */
+    --shell-light: #5D4037;   /* The brown fiber (Primary) */
+    --palm-green: #2E7D32;    /* The leaves (Success/Accent) */
+    --sand-bg: #FDFBF7;       /* The beach/sand (Background) */
+    --meat-white: #FFFFFF;    /* The coconut meat (Card BG) */
+    
+    /* Functional Colors */
+    --warning-color: #F9A825; /* Sun Yellow */
+    --danger-color: #C62828;  /* Red Alert */
+    --text-primary: #3E2723;  /* Dark Brown Text */
+    --text-secondary: #6D4C41; /* Lighter Brown Text */
+    --border-color: #D7CCC8;  /* Subtle Shell Border */
+    
+    --shadow: 0 4px 12px rgba(62, 39, 35, 0.08);
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background: var(--sand-bg);
+    color: var(--text-primary);
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+/* --- HEADER: The Hard Shell --- */
+.header {
+    background: linear-gradient(135deg, var(--shell-dark), var(--shell-light));
+    border-bottom: 5px solid var(--palm-green);
+    border-radius: 16px;
+    padding: 40px;
+    margin-bottom: 40px;
+    box-shadow: 0 10px 25px rgba(62, 39, 35, 0.25);
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Subtle texture for the shell */
+.header::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: radial-gradient(circle at top right, rgba(255,255,255,0.1), transparent);
+    pointer-events: none;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.header h1 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom: 5px;
+    letter-spacing: -0.5px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.subtitle {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+/* --- BUTTONS: The Palm Growth --- */
+.btn-primary {
+    background: var(--palm-green);
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 6px rgba(46, 125, 50, 0.3);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 15px rgba(46, 125, 50, 0.4);
+    background: #388E3C;
+}
+
+/* --- CARDS: The White Meat --- */
+.summary-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.card, .chart-container, .patterns-section, .actions-section, .timeline-section {
+    background: var(--meat-white);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 25px;
+    box-shadow: var(--shadow);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: var(--shell-light);
+}
+
+/* Unique "Shell Spine" for cards */
+.card {
+    border-left: 6px solid var(--shell-light);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.card-icon {
+    font-size: 2.2rem;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #EFEBE9; /* Very light brown */
+    color: var(--shell-dark);
+    border-radius: 12px;
+}
+
+.card-value {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: var(--shell-dark);
+}
+
+.card-content h3 {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+/* --- SECTIONS & CHARTS --- */
+h2 {
+    font-size: 1.6rem;
+    color: var(--shell-dark);
+    margin-bottom: 25px;
+    border-bottom: 2px solid #EFEBE9;
+    padding-bottom: 10px;
+}
+
+.charts-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+/* --- LISTS & PATTERNS --- */
+.pattern-item, .action-item {
+    background: #FAFAFA;
+    border: 1px solid var(--border-color);
+    border-left: 4px solid var(--shell-light);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+    transition: background 0.2s;
+}
+
+.pattern-item:hover, .action-item:hover {
+    background: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.severity-badge {
+    background: var(--warning-color);
+    color: #3E2723;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.confidence-badge {
+    background: var(--palm-green);
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+/* --- TIMELINE: The Trunk --- */
+.timeline {
+    border-left: 3px solid var(--border-color);
+    margin-left: 10px;
+    padding-left: 30px;
+}
+
+.timeline-item::before {
+    background: var(--shell-light);
+    border: 3px solid white;
+    box-shadow: 0 0 0 2px var(--border-color);
+    width: 14px;
+    height: 14px;
+    left: -39px; /* Adjusted for new padding */
+}
+
+/* --- APPROVAL / HITL SECTION --- */
+.approval-section {
+    background: #FFF8E1; /* Light Amber */
+    border: 2px solid var(--warning-color);
+    border-radius: 16px;
+    padding: 25px;
+    margin-bottom: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+.approval-section::before {
+    content: '⚠️';
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    font-size: 100px;
+    opacity: 0.1;
+    transform: rotate(15deg);
+}
+
+.approval-card {
+    background: white;
+    border-left: 6px solid var(--warning-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    margin-top: 15px;
+}
+
+.approval-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.btn-approve {
+    background-color: var(--palm-green);
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    flex: 1;
+}
+
+.btn-reject {
+    background-color: var(--danger-color);
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+/* Loading & Utils */
+.spinner {
+    border: 4px solid var(--border-color);
+    border-top: 4px solid var(--palm-green);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+}
+
+@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+
+.hidden { display: none; }

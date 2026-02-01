@@ -1,0 +1,366 @@
+Date,Context,Dominant_Method,Peak_Start_Hour,Peak_End_Hour,Failure_Rate_Threshold,Latency_Max_Threshold
+2026-01-01,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-01-02,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-01-03,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-01-04,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-01-05,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-01-06,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-01-07,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-01-08,Normal Day,UPI_Debit,18,22,0.05,800
+2026-01-09,Pre_Festival_Rush,Credit_Card_Wallet,18,23,0.15,1500
+2026-01-10,Pre_Festival_Rush,Credit_Card_Wallet,18,23,0.15,1500
+2026-01-11,Pre_Festival_Rush,Credit_Card_Wallet,18,23,0.15,1500
+2026-01-12,Pre_Festival_Rush,Credit_Card_Wallet,18,23,0.15,1500
+2026-01-13,Pre_Festival_Rush,Credit_Card_Wallet,18,23,0.15,1500
+2026-01-14,FESTIVAL_Makar_Sankranti,ALL_METHODS,9,23,0.25,2500
+2026-01-15,Normal Day,UPI_Debit,18,22,0.05,800
+2026-01-16,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-01-17,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-01-18,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-01-19,Normal Day,UPI_Debit,18,22,0.05,800
+2026-01-20,SALE_Republic_Day_Sale,Credit_Card_EMI,12,23,0.18,1800
+2026-01-21,SALE_Republic_Day_Sale,Credit_Card_EMI,12,23,0.18,1800
+2026-01-22,SALE_Republic_Day_Sale,Credit_Card_EMI,12,23,0.18,1800
+2026-01-23,SALE_Republic_Day_Sale,Credit_Card_EMI,12,23,0.18,1800
+2026-01-24,SALE_Republic_Day_Sale,Credit_Card_EMI,12,23,0.18,1800
+2026-01-25,SALE_Republic_Day_Sale,Credit_Card_EMI,12,23,0.18,1800
+2026-01-26,FESTIVAL_Republic_Day,ALL_METHODS,9,23,0.25,2500
+2026-01-27,Month_End_Crunch,Credit_Card,19,23,0.08,1000
+2026-01-28,Month_End_Crunch,Credit_Card,19,23,0.08,1000
+2026-01-29,Month_End_Crunch,Credit_Card,19,23,0.08,1000
+2026-01-30,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-01-31,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-02-01,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-02-02,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-02-03,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-02-04,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-02-05,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-02-06,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-02-07,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-02-08,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-02-09,Normal Day,UPI_Debit,18,22,0.05,800
+2026-02-10,Normal Day,UPI_Debit,18,22,0.05,800
+2026-02-11,Normal Day,UPI_Debit,18,22,0.05,800
+2026-02-12,Normal Day,UPI_Debit,18,22,0.05,800
+2026-02-13,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-02-14,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-02-15,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-02-16,Normal Day,UPI_Debit,18,22,0.05,800
+2026-02-17,Normal Day,UPI_Debit,18,22,0.05,800
+2026-02-18,Normal Day,UPI_Debit,18,22,0.05,800
+2026-02-19,Normal Day,UPI_Debit,18,22,0.05,800
+2026-02-20,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-02-21,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-02-22,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-02-23,Normal Day,UPI_Debit,18,22,0.05,800
+2026-02-24,Normal Day,UPI_Debit,18,22,0.05,800
+2026-02-25,Month_End_Crunch,Credit_Card,19,23,0.08,1000
+2026-02-26,Month_End_Crunch,Credit_Card,19,23,0.08,1000
+2026-02-27,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-02-28,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-03-01,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-03-02,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-03-03,Pre_Festival_Rush,Credit_Card_Wallet,18,23,0.15,1500
+2026-03-04,Pre_Festival_Rush,Credit_Card_Wallet,18,23,0.15,1500
+2026-03-05,Pre_Festival_Rush,Credit_Card_Wallet,18,23,0.15,1500
+2026-03-06,Pre_Festival_Rush,Credit_Card_Wallet,18,23,0.15,1500
+2026-03-07,Pre_Festival_Rush,Credit_Card_Wallet,18,23,0.15,1500
+2026-03-08,FESTIVAL_Holi,ALL_METHODS,9,23,0.25,2500
+2026-03-09,Normal Day,UPI_Debit,18,22,0.05,800
+2026-03-10,Normal Day,UPI_Debit,18,22,0.05,800
+2026-03-11,Normal Day,UPI_Debit,18,22,0.05,800
+2026-03-12,Normal Day,UPI_Debit,18,22,0.05,800
+2026-03-13,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-03-14,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-03-15,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-03-16,Normal Day,UPI_Debit,18,22,0.05,800
+2026-03-17,Normal Day,UPI_Debit,18,22,0.05,800
+2026-03-18,Normal Day,UPI_Debit,18,22,0.05,800
+2026-03-19,Normal Day,UPI_Debit,18,22,0.05,800
+2026-03-20,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-03-21,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-03-22,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-03-23,Normal Day,UPI_Debit,18,22,0.05,800
+2026-03-24,Normal Day,UPI_Debit,18,22,0.05,800
+2026-03-25,Month_End_Crunch,Credit_Card,19,23,0.08,1000
+2026-03-26,Month_End_Crunch,Credit_Card,19,23,0.08,1000
+2026-03-27,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-03-28,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-03-29,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-03-30,Month_End_Crunch,Credit_Card,19,23,0.08,1000
+2026-03-31,Month_End_Crunch,Credit_Card,19,23,0.08,1000
+2026-04-01,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-04-02,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-04-03,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-04-04,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-04-05,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-04-06,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-04-07,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-04-08,Normal Day,UPI_Debit,18,22,0.05,800
+2026-04-09,Pre_Festival_Rush,Credit_Card_Wallet,18,23,0.15,1500
+2026-04-10,Pre_Festival_Rush,Credit_Card_Wallet,18,23,0.15,1500
+2026-04-11,Pre_Festival_Rush,Credit_Card_Wallet,18,23,0.15,1500
+2026-04-12,Pre_Festival_Rush,Credit_Card_Wallet,18,23,0.15,1500
+2026-04-13,Pre_Festival_Rush,Credit_Card_Wallet,18,23,0.15,1500
+2026-04-14,FESTIVAL_Baisakhi,ALL_METHODS,9,23,0.25,2500
+2026-04-15,Normal Day,UPI_Debit,18,22,0.05,800
+2026-04-16,Normal Day,UPI_Debit,18,22,0.05,800
+2026-04-17,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-04-18,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-04-19,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-04-20,Normal Day,UPI_Debit,18,22,0.05,800
+2026-04-21,Normal Day,UPI_Debit,18,22,0.05,800
+2026-04-22,Normal Day,UPI_Debit,18,22,0.05,800
+2026-04-23,Normal Day,UPI_Debit,18,22,0.05,800
+2026-04-24,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-04-25,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-04-26,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-04-27,Month_End_Crunch,Credit_Card,19,23,0.08,1000
+2026-04-28,Month_End_Crunch,Credit_Card,19,23,0.08,1000
+2026-04-29,Month_End_Crunch,Credit_Card,19,23,0.08,1000
+2026-04-30,Month_End_Crunch,Credit_Card,19,23,0.08,1000
+2026-05-01,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-05-02,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-05-03,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-05-04,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-05-05,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-05-06,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-05-07,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-05-08,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-05-09,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-05-10,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-05-11,Normal Day,UPI_Debit,18,22,0.05,800
+2026-05-12,Normal Day,UPI_Debit,18,22,0.05,800
+2026-05-13,Normal Day,UPI_Debit,18,22,0.05,800
+2026-05-14,Normal Day,UPI_Debit,18,22,0.05,800
+2026-05-15,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-05-16,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-05-17,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-05-18,Normal Day,UPI_Debit,18,22,0.05,800
+2026-05-19,Normal Day,UPI_Debit,18,22,0.05,800
+2026-05-20,Normal Day,UPI_Debit,18,22,0.05,800
+2026-05-21,Normal Day,UPI_Debit,18,22,0.05,800
+2026-05-22,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-05-23,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-05-24,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-05-25,Month_End_Crunch,Credit_Card,19,23,0.08,1000
+2026-05-26,Month_End_Crunch,Credit_Card,19,23,0.08,1000
+2026-05-27,Month_End_Crunch,Credit_Card,19,23,0.08,1000
+2026-05-28,Month_End_Crunch,Credit_Card,19,23,0.08,1000
+2026-05-29,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-05-30,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-05-31,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-06-01,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-06-02,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-06-03,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-06-04,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-06-05,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-06-06,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-06-07,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-06-08,Normal Day,UPI_Debit,18,22,0.05,800
+2026-06-09,Normal Day,UPI_Debit,18,22,0.05,800
+2026-06-10,Normal Day,UPI_Debit,18,22,0.05,800
+2026-06-11,Normal Day,UPI_Debit,18,22,0.05,800
+2026-06-12,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-06-13,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-06-14,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-06-15,Normal Day,UPI_Debit,18,22,0.05,800
+2026-06-16,Normal Day,UPI_Debit,18,22,0.05,800
+2026-06-17,Normal Day,UPI_Debit,18,22,0.05,800
+2026-06-18,Normal Day,UPI_Debit,18,22,0.05,800
+2026-06-19,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-06-20,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-06-21,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-06-22,Normal Day,UPI_Debit,18,22,0.05,800
+2026-06-23,Normal Day,UPI_Debit,18,22,0.05,800
+2026-06-24,Normal Day,UPI_Debit,18,22,0.05,800
+2026-06-25,Month_End_Crunch,Credit_Card,19,23,0.08,1000
+2026-06-26,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-06-27,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-06-28,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-06-29,Month_End_Crunch,Credit_Card,19,23,0.08,1000
+2026-06-30,Month_End_Crunch,Credit_Card,19,23,0.08,1000
+2026-07-01,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-07-02,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-07-03,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-07-04,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-07-05,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-07-06,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-07-07,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-07-08,Normal Day,UPI_Debit,18,22,0.05,800
+2026-07-09,Normal Day,UPI_Debit,18,22,0.05,800
+2026-07-10,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-07-11,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-07-12,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-07-13,Normal Day,UPI_Debit,18,22,0.05,800
+2026-07-14,Normal Day,UPI_Debit,18,22,0.05,800
+2026-07-15,Normal Day,UPI_Debit,18,22,0.05,800
+2026-07-16,Normal Day,UPI_Debit,18,22,0.05,800
+2026-07-17,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-07-18,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-07-19,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-07-20,Normal Day,UPI_Debit,18,22,0.05,800
+2026-07-21,Normal Day,UPI_Debit,18,22,0.05,800
+2026-07-22,Normal Day,UPI_Debit,18,22,0.05,800
+2026-07-23,Normal Day,UPI_Debit,18,22,0.05,800
+2026-07-24,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-07-25,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-07-26,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-07-27,Month_End_Crunch,Credit_Card,19,23,0.08,1000
+2026-07-28,Month_End_Crunch,Credit_Card,19,23,0.08,1000
+2026-07-29,Month_End_Crunch,Credit_Card,19,23,0.08,1000
+2026-07-30,Month_End_Crunch,Credit_Card,19,23,0.08,1000
+2026-07-31,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-08-01,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-08-02,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-08-03,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-08-04,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-08-05,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-08-06,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-08-07,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-08-08,SALE_Freedom_Sale,Credit_Card_EMI,12,23,0.18,1800
+2026-08-09,SALE_Freedom_Sale,Credit_Card_EMI,12,23,0.18,1800
+2026-08-10,SALE_Freedom_Sale,Credit_Card_EMI,12,23,0.18,1800
+2026-08-11,SALE_Freedom_Sale,Credit_Card_EMI,12,23,0.18,1800
+2026-08-12,SALE_Freedom_Sale,Credit_Card_EMI,12,23,0.18,1800
+2026-08-13,SALE_Freedom_Sale,Credit_Card_EMI,12,23,0.18,1800
+2026-08-14,SALE_Freedom_Sale,Credit_Card_EMI,12,23,0.18,1800
+2026-08-15,FESTIVAL_Independence_Day,ALL_METHODS,9,23,0.25,2500
+2026-08-16,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-08-17,Normal Day,UPI_Debit,18,22,0.05,800
+2026-08-18,Normal Day,UPI_Debit,18,22,0.05,800
+2026-08-19,Normal Day,UPI_Debit,18,22,0.05,800
+2026-08-20,Normal Day,UPI_Debit,18,22,0.05,800
+2026-08-21,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-08-22,Pre_Festival_Rush,Credit_Card_Wallet,18,23,0.15,1500
+2026-08-23,Pre_Festival_Rush,Credit_Card_Wallet,18,23,0.15,1500
+2026-08-24,Pre_Festival_Rush,Credit_Card_Wallet,18,23,0.15,1500
+2026-08-25,Pre_Festival_Rush,Credit_Card_Wallet,18,23,0.15,1500
+2026-08-26,Pre_Festival_Rush,Credit_Card_Wallet,18,23,0.15,1500
+2026-08-27,FESTIVAL_Raksha_Bandhan,ALL_METHODS,9,23,0.25,2500
+2026-08-28,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-08-29,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-08-30,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-08-31,Month_End_Crunch,Credit_Card,19,23,0.08,1000
+2026-09-01,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-09-02,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-09-03,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-09-04,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-09-05,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-09-06,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-09-07,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-09-08,Normal Day,UPI_Debit,18,22,0.05,800
+2026-09-09,Normal Day,UPI_Debit,18,22,0.05,800
+2026-09-10,Normal Day,UPI_Debit,18,22,0.05,800
+2026-09-11,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-09-12,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-09-13,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-09-14,Normal Day,UPI_Debit,18,22,0.05,800
+2026-09-15,Normal Day,UPI_Debit,18,22,0.05,800
+2026-09-16,Normal Day,UPI_Debit,18,22,0.05,800
+2026-09-17,Normal Day,UPI_Debit,18,22,0.05,800
+2026-09-18,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-09-19,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-09-20,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-09-21,Normal Day,UPI_Debit,18,22,0.05,800
+2026-09-22,Normal Day,UPI_Debit,18,22,0.05,800
+2026-09-23,Normal Day,UPI_Debit,18,22,0.05,800
+2026-09-24,Normal Day,UPI_Debit,18,22,0.05,800
+2026-09-25,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-09-26,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-09-27,Pre_Festival_Rush,Credit_Card_Wallet,18,23,0.15,1500
+2026-09-28,Pre_Festival_Rush,Credit_Card_Wallet,18,23,0.15,1500
+2026-09-29,Pre_Festival_Rush,Credit_Card_Wallet,18,23,0.15,1500
+2026-09-30,Pre_Festival_Rush,Credit_Card_Wallet,18,23,0.15,1500
+2026-10-01,Pre_Festival_Rush,Credit_Card_Wallet,18,23,0.15,1500
+2026-10-02,FESTIVAL_Gandhi_Jayanti,ALL_METHODS,9,23,0.25,2500
+2026-10-03,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-10-04,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-10-05,SALE_Great_Indian_Festival,Credit_Card_EMI,12,23,0.18,1800
+2026-10-06,SALE_Great_Indian_Festival,Credit_Card_EMI,12,23,0.18,1800
+2026-10-07,SALE_Great_Indian_Festival,Credit_Card_EMI,12,23,0.18,1800
+2026-10-08,SALE_Great_Indian_Festival,Credit_Card_EMI,12,23,0.18,1800
+2026-10-09,SALE_Great_Indian_Festival,Credit_Card_EMI,12,23,0.18,1800
+2026-10-10,SALE_Great_Indian_Festival,Credit_Card_EMI,12,23,0.18,1800
+2026-10-11,SALE_Great_Indian_Festival,Credit_Card_EMI,12,23,0.18,1800
+2026-10-12,SALE_Great_Indian_Festival,Credit_Card_EMI,12,23,0.18,1800
+2026-10-13,SALE_Great_Indian_Festival,Credit_Card_EMI,12,23,0.18,1800
+2026-10-14,SALE_Great_Indian_Festival,Credit_Card_EMI,12,23,0.18,1800
+2026-10-15,SALE_Great_Indian_Festival,Credit_Card_EMI,12,23,0.18,1800
+2026-10-16,SALE_Great_Indian_Festival,Credit_Card_EMI,12,23,0.18,1800
+2026-10-17,SALE_Great_Indian_Festival,Credit_Card_EMI,12,23,0.18,1800
+2026-10-18,SALE_Great_Indian_Festival,Credit_Card_EMI,12,23,0.18,1800
+2026-10-19,SALE_Great_Indian_Festival,Credit_Card_EMI,12,23,0.18,1800
+2026-10-20,FESTIVAL_Dussehra,ALL_METHODS,9,23,0.25,2500
+2026-10-21,SALE_Great_Indian_Festival,Credit_Card_EMI,12,23,0.18,1800
+2026-10-22,SALE_Great_Indian_Festival,Credit_Card_EMI,12,23,0.18,1800
+2026-10-23,SALE_Great_Indian_Festival,Credit_Card_EMI,12,23,0.18,1800
+2026-10-24,SALE_Great_Indian_Festival,Credit_Card_EMI,12,23,0.18,1800
+2026-10-25,SALE_Great_Indian_Festival,Credit_Card_EMI,12,23,0.18,1800
+2026-10-26,SALE_Great_Indian_Festival,Credit_Card_EMI,12,23,0.18,1800
+2026-10-27,SALE_Great_Indian_Festival,Credit_Card_EMI,12,23,0.18,1800
+2026-10-28,SALE_Great_Indian_Festival,Credit_Card_EMI,12,23,0.18,1800
+2026-10-29,SALE_Great_Indian_Festival,Credit_Card_EMI,12,23,0.18,1800
+2026-10-30,SALE_Great_Indian_Festival,Credit_Card_EMI,12,23,0.18,1800
+2026-10-31,Pre_Festival_Rush,Credit_Card_Wallet,18,23,0.15,1500
+2026-11-01,FESTIVAL_Diwali,ALL_METHODS,9,23,0.25,2500
+2026-11-02,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-11-03,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-11-04,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-11-05,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-11-06,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-11-07,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-11-08,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-11-09,Normal Day,UPI_Debit,18,22,0.05,800
+2026-11-10,Normal Day,UPI_Debit,18,22,0.05,800
+2026-11-11,Normal Day,UPI_Debit,18,22,0.05,800
+2026-11-12,Normal Day,UPI_Debit,18,22,0.05,800
+2026-11-13,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-11-14,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-11-15,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-11-16,Normal Day,UPI_Debit,18,22,0.05,800
+2026-11-17,Normal Day,UPI_Debit,18,22,0.05,800
+2026-11-18,Normal Day,UPI_Debit,18,22,0.05,800
+2026-11-19,Normal Day,UPI_Debit,18,22,0.05,800
+2026-11-20,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-11-21,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-11-22,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-11-23,Normal Day,UPI_Debit,18,22,0.05,800
+2026-11-24,Normal Day,UPI_Debit,18,22,0.05,800
+2026-11-25,Month_End_Crunch,Credit_Card,19,23,0.08,1000
+2026-11-26,Month_End_Crunch,Credit_Card,19,23,0.08,1000
+2026-11-27,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-11-28,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-11-29,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-11-30,Month_End_Crunch,Credit_Card,19,23,0.08,1000
+2026-12-01,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-12-02,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-12-03,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-12-04,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-12-05,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-12-06,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-12-07,Salary_Week_Bills,UPI_Netbanking,10,14,0.12,1200
+2026-12-08,Normal Day,UPI_Debit,18,22,0.05,800
+2026-12-09,Normal Day,UPI_Debit,18,22,0.05,800
+2026-12-10,Normal Day,UPI_Debit,18,22,0.05,800
+2026-12-11,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-12-12,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-12-13,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-12-14,Normal Day,UPI_Debit,18,22,0.05,800
+2026-12-15,Normal Day,UPI_Debit,18,22,0.05,800
+2026-12-16,Normal Day,UPI_Debit,18,22,0.05,800
+2026-12-17,Normal Day,UPI_Debit,18,22,0.05,800
+2026-12-18,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-12-19,Weekend_Lifestyle,Credit_Card_UPI,17,23,0.1,950
+2026-12-20,Pre_Festival_Rush,Credit_Card_Wallet,18,23,0.15,1500
+2026-12-21,Pre_Festival_Rush,Credit_Card_Wallet,18,23,0.15,1500
+2026-12-22,Pre_Festival_Rush,Credit_Card_Wallet,18,23,0.15,1500
+2026-12-23,Pre_Festival_Rush,Credit_Card_Wallet,18,23,0.15,1500
+2026-12-24,Pre_Festival_Rush,Credit_Card_Wallet,18,23,0.15,1500
+2026-12-25,FESTIVAL_Christmas,ALL_METHODS,9,23,0.25,2500
+2026-12-26,Pre_Festival_Rush,Credit_Card_Wallet,18,23,0.15,1500
+2026-12-27,Pre_Festival_Rush,Credit_Card_Wallet,18,23,0.15,1500
+2026-12-28,Pre_Festival_Rush,Credit_Card_Wallet,18,23,0.15,1500
+2026-12-29,Pre_Festival_Rush,Credit_Card_Wallet,18,23,0.15,1500
+2026-12-30,Pre_Festival_Rush,Credit_Card_Wallet,18,23,0.15,1500
+2026-12-31,FESTIVAL_New_Year's_Eve,ALL_METHODS,9,23,0.25,2500

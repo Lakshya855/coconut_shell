@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Operations Agent Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="coconut-brand">
+        <span class="brand-icon">🥥</span> 
+        <span class="brand-text">COCONUT SHELL</span>
+            </div>
+            <div class="header-content">
+                <h1>🤖 Payment Operations Agent</h1>
+                <p class="subtitle">Real-time Performance Monitoring & Analysis</p>
+                <button id="refreshBtn" class="btn-primary">🔄 Refresh Data</button>
+            </div>
+        </header>
+
+        <!-- Loading State -->
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <p>Loading agent data...</p>
+        </div>
+
+        <!-- Error State -->
+        <div id="error" class="error hidden">
+            <div class="error-content">
+                <h2>❌ Error Loading Data</h2>
+                <p id="errorMessage"></p>
+                <button onclick="loadData()" class="btn-primary">Try Again</button>
+            </div>
+        </div>
+
+        <!-- Main Dashboard -->
+        <div id="dashboard" class="dashboard hidden">
+            <!-- Summary Cards -->
+            <section class="summary-cards">
+                <div class="card">
+                    <div class="card-icon">📊</div>
+                    <div class="card-content">
+                        <h3>Total Transactions</h3>
+                        <p class="card-value" id="totalTxns">-</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">✅</div>
+                    <div class="card-content">
+                        <h3>Success Rate</h3>
+                        <p class="card-value" id="successRate">-</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">⚡</div>
+                    <div class="card-content">
+                        <h3>Avg Latency</h3>
+                        <p class="card-value" id="avgLatency">-</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🔍</div>
+                    <div class="card-content">
+                        <h3>Patterns Detected</h3>
+                        <p class="card-value" id="totalPatterns">-</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🎯</div>
+                    <div class="card-content">
+                        <h3>Actions Taken</h3>
+                        <p class="card-value" id="totalActions">-</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">📈</div>
+                    <div class="card-content">
+                        <h3>Action Effectiveness</h3>
+                        <p class="card-value" id="actionEffectiveness">-</p>
+                    </div>
+                </div>
+            </section>
+            <section id="pending-approvals" class="approval-section hidden">
+                <div class="approval-header">
+                    <h2>⚠️ Action Requires Approval</h2>
+                    <p> The agent has paused a high-risk action. Please review.</p>
+                </div>
+                <div id="approval-list" class="approval-list">
+                    </div>
+            </section>
+            <!-- Charts Section -->
+            <section class="charts-section">
+                <div class="chart-container">
+                    <h2>Success Rate Over Time</h2>
+                    <canvas id="successRateChart"></canvas>
+                </div>
+                <div class="chart-container">
+                    <h2>Average Latency Over Time</h2>
+                    <canvas id="latencyChart"></canvas>
+                </div>
+            </section>
+
+            <!-- Patterns Section -->
+            <section class="patterns-section">
+                <h2>🔍 Detected Patterns</h2>
+                <div id="patternsList" class="patterns-list"></div>
+            </section>
+
+            <!-- Actions Section -->
+            <section class="actions-section">
+                <h2>🎯 Actions Taken</h2>
+                <div id="actionsList" class="actions-list"></div>
+            </section>
+
+            <!-- Timeline Section -->
+            <section class="timeline-section">
+                <h2>📅 Event Timeline</h2>
+                <div id="timeline" class="timeline"></div>
+            </section>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+<script>
+    // 1. Connects to the backend every 3 seconds to check for high-severity alerts
+    function startAlertMonitoring() {
+        console.log("Monitoring for severity > 0.6...");
+        setInterval(async () => {
+            try {
+                const response = await fetch('/api/alerts');
+                const data = await response.json();
+                
+                if (data.alerts && data.alerts.length > 0) {
+                    data.alerts.forEach(alert => {
+                        if (!document.getElementById(`popup-${alert.id}`)) {
+                            showRedPopup(alert);
+                        }
+                    });
+                }
+            } catch (err) {
+                console.error("Connection lost to agent:", err);
+            }
+        }, 3000);
+    }
+
+    // 2. Creates the visual notification on your dashboard
+    function showRedPopup(alertData) {
+    // 1. Log to the browser console so you can see it's working
+    console.log("CRITICAL ALERT RECEIVED:", alertData);
+
+    // 2. Use a standard Browser Confirmation Dialog
+    // This pauses the browser and FORCES you to see the message
+    const confirmed = confirm(
+        "🚨 APPROVAL REQUIRED (Severity: " + alertData.severity + ")\n\n" +
+        "Issue: " + alertData.reason + "\n" +
+        "Target: " + alertData.target + "\n\n" +
+        "Click OK to authorize the Agent to take action."
+    );
+
+    if (confirmed) {
+        approveAction(alertData.id);
+    }
+}
+
+    // 3. Handles the 'Approve' button click
+    async function approveAction(actionId) {
+        const response = await fetch(`/api/approve-action/${actionId}`, { method: 'POST' });
+        const result = await response.json();
+        if (result.status) {
+            document.getElementById(`popup-${actionId}`).style.background = "#27ae60"; // Turn green on success
+            setTimeout(() => document.getElementById(`popup-${actionId}`).remove(), 1000);
+        }
+    }
+
+    // Start the loop
+    window.onload = startAlertMonitoring;
+</script>
+</body>
+</html>

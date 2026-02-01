@@ -1,0 +1,238 @@
+{
+  "total_transactions": 600,
+  "actions_taken": [
+    {
+      "action_id": "action_1769922655_1595",
+      "timestamp": "2026-02-01T10:40:55.521361",
+      "action_type": "adjust_retry_strategy",
+      "target": "HDFC_ISSUER",
+      "parameters": {
+        "issuer": "HDFC_ISSUER",
+        "max_retries": 2,
+        "retry_delay_ms": 2000,
+        "exponential_backoff": true
+      },
+      "confidence": 0.4444444444444444,
+      "reasoning": "Issuer HDFC_ISSUER showing 22.2% failure rate. Adjusting retry strategy to reduce load and improve success.",
+      "requires_approval": false,
+      "approved": true,
+      "executed": true,
+      "outcome_metrics": {
+        "success_rate_before": 0.95,
+        "success_rate_after": 0.88,
+        "success_rate_improvement": -0.06999999999999995,
+        "latency_before": 947.0900027362464,
+        "latency_after": 1099.5844717083976,
+        "latency_improvement": -152.49446897215114,
+        "sample_size_before": 100,
+        "sample_size_after": 100,
+        "action_successful": false
+      }
+    }
+  ],
+  "patterns_detected": [
+    {
+      "pattern_id": "latency_spike_HDFC_ISSUER_1769922655",
+      "pattern_type": "latency_spike",
+      "severity": 1.0,
+      "affected_scope": {
+        "issuer": "HDFC_ISSUER"
+      },
+      "metrics": {
+        "avg_latency": 2536.4941399889526,
+        "limit_used": 1200.0,
+        "sample_size": 9
+      },
+      "first_seen": "2026-02-01T10:40:55.519439",
+      "last_seen": "2026-02-01T10:40:55.519833",
+      "occurrences": 9
+    },
+    {
+      "pattern_id": "issuer_deg_HDFC_ISSUER_1769922655",
+      "pattern_type": "issuer_degradation",
+      "severity": 0.4444444444444444,
+      "affected_scope": {
+        "issuer": "HDFC_ISSUER"
+      },
+      "metrics": {
+        "failure_rate": 0.2222222222222222,
+        "avg_latency": 2536.4941399889526,
+        "sample_size": 9
+      },
+      "first_seen": "2026-02-01T10:40:55.519439",
+      "last_seen": "2026-02-01T10:40:55.519833",
+      "occurrences": 9
+    },
+    {
+      "pattern_id": "latency_spike_HDFC_ISSUER_1769922656",
+      "pattern_type": "latency_spike",
+      "severity": 1.0,
+      "affected_scope": {
+        "issuer": "HDFC_ISSUER"
+      },
+      "metrics": {
+        "avg_latency": 3182.4566841367846,
+        "limit_used": 1200.0,
+        "sample_size": 6
+      },
+      "first_seen": "2026-02-01T10:40:56.565574",
+      "last_seen": "2026-02-01T10:40:56.569231",
+      "occurrences": 6
+    },
+    {
+      "pattern_id": "issuer_deg_HDFC_ISSUER_1769922656",
+      "pattern_type": "issuer_degradation",
+      "severity": 1.0,
+      "affected_scope": {
+        "issuer": "HDFC_ISSUER"
+      },
+      "metrics": {
+        "failure_rate": 0.6666666666666666,
+        "avg_latency": 3182.4566841367846,
+        "sample_size": 6
+      },
+      "first_seen": "2026-02-01T10:40:56.565574",
+      "last_seen": "2026-02-01T10:40:56.569231",
+      "occurrences": 6
+    },
+    {
+      "pattern_id": "latency_spike_ICICI_ISSUER_1769922657",
+      "pattern_type": "latency_spike",
+      "severity": 0.9850835864327379,
+      "affected_scope": {
+        "issuer": "ICICI_ISSUER"
+      },
+      "metrics": {
+        "avg_latency": 2968.5957623442505,
+        "baseline_latency": 1004.5156922823044,
+        "sample_size": 13
+      },
+      "first_seen": "2026-02-01T10:40:57.597471",
+      "last_seen": "2026-02-01T10:40:57.599094",
+      "occurrences": 13
+    },
+    {
+      "pattern_id": "issuer_deg_HDFC_ISSUER_1769922658",
+      "pattern_type": "issuer_degradation",
+      "severity": 0.4,
+      "affected_scope": {
+        "issuer": "HDFC_ISSUER"
+      },
+      "metrics": {
+        "failure_rate": 0.2,
+        "avg_latency": 784.5055775467697,
+        "sample_size": 5
+      },
+      "first_seen": "2026-02-01T10:40:58.108878",
+      "last_seen": "2026-02-01T10:40:58.109334",
+      "occurrences": 5
+    },
+    {
+      "pattern_id": "latency_spike_ICICI_ISSUER_1769922658",
+      "pattern_type": "latency_spike",
+      "severity": 1.0,
+      "affected_scope": {
+        "issuer": "ICICI_ISSUER"
+      },
+      "metrics": {
+        "avg_latency": 2606.102470744301,
+        "limit_used": 1200.0,
+        "sample_size": 7
+      },
+      "first_seen": "2026-02-01T10:40:58.108902",
+      "last_seen": "2026-02-01T10:40:58.109306",
+      "occurrences": 7
+    }
+  ],
+  "metrics_history": [
+    {
+      "timestamp": "2026-02-01T10:40:53.989831",
+      "success_rate": 0.98,
+      "avg_latency": 795.7438580008277,
+      "patterns_detected": 0,
+      "actions_taken": 0
+    },
+    {
+      "timestamp": "2026-02-01T10:40:54.495618",
+      "success_rate": 0.99,
+      "avg_latency": 797.8525832594231,
+      "patterns_detected": 0,
+      "actions_taken": 0
+    },
+    {
+      "timestamp": "2026-02-01T10:40:55.001897",
+      "success_rate": 0.9866666666666667,
+      "avg_latency": 794.4957052893383,
+      "patterns_detected": 0,
+      "actions_taken": 0
+    },
+    {
+      "timestamp": "2026-02-01T10:40:55.527440",
+      "success_rate": 0.97,
+      "avg_latency": 872.4712929978348,
+      "patterns_detected": 2,
+      "actions_taken": 1
+    },
+    {
+      "timestamp": "2026-02-01T10:40:56.055240",
+      "success_rate": 0.94,
+      "avg_latency": 952.615271529829,
+      "patterns_detected": 3,
+      "actions_taken": 0
+    },
+    {
+      "timestamp": "2026-02-01T10:40:56.572300",
+      "success_rate": 0.915,
+      "avg_latency": 1023.3372372223221,
+      "patterns_detected": 2,
+      "actions_taken": 0
+    },
+    {
+      "timestamp": "2026-02-01T10:40:57.088164",
+      "success_rate": 0.915,
+      "avg_latency": 1162.030682527029,
+      "patterns_detected": 2,
+      "actions_taken": 0
+    },
+    {
+      "timestamp": "2026-02-01T10:40:57.602401",
+      "success_rate": 0.925,
+      "avg_latency": 1225.2418789584326,
+      "patterns_detected": 2,
+      "actions_taken": 0
+    },
+    {
+      "timestamp": "2026-02-01T10:40:58.110324",
+      "success_rate": 0.945,
+      "avg_latency": 1198.432906909955,
+      "patterns_detected": 2,
+      "actions_taken": 0
+    },
+    {
+      "timestamp": "2026-02-01T10:40:58.616081",
+      "success_rate": 0.97,
+      "avg_latency": 1121.1845491177178,
+      "patterns_detected": 0,
+      "actions_taken": 0
+    },
+    {
+      "timestamp": "2026-02-01T10:40:59.122153",
+      "success_rate": 0.975,
+      "avg_latency": 972.1564224137791,
+      "patterns_detected": 0,
+      "actions_taken": 0
+    },
+    {
+      "timestamp": "2026-02-01T10:40:59.627743",
+      "success_rate": 0.975,
+      "avg_latency": 831.6784182200471,
+      "patterns_detected": 0,
+      "actions_taken": 0
+    }
+  ],
+  "baseline_metrics": {
+    "success_rate": 0.9566666666666667,
+    "avg_latency": 976.4638633921048,
+    "failure_rate": 0.043333333333333335
+  }
+}
